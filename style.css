@@ -25,11 +25,17 @@ div{
 }
 
 #res{
-    margin: 10%;
     text-align: center;
     display: none;
-    font-size: 50pt;
+    font-size: 30pt;
     color: red;
+}
+
+#res1{
+    text-align: center;
+    display: none;
+    font-size: 30pt;
+    color: black;
 }
 
 label{
@@ -37,6 +43,7 @@ label{
 }
 
 input{
+    border-radius: 5px;
     font-size: 15pt;
     width: 50px;
 }

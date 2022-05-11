@@ -12,8 +12,18 @@ function calcularmedia() {
     var r = s .toFixed (1)
 
     navprincipal.style.display = 'none'
-    res.style.display = 'block'
-    res.innerHTML = 'A média do aluno é ' + r
+    res1.style.display = 'block'
+
+    res1.innerHTML = 'A média do aluno é ' + r
+
+    if (s >= 7) {
+        navprincipal.style.display = 'none'
+        res.style.display = 'block'
+        res.innerHTML = 'O aluno foi <strong>APROVADO</strong>!'
+    }
+    else {
+        navprincipal.style.display = 'none'
+        res.style.display = 'block'
+        res.innerHTML = 'O aluno foi <strong>REPROVADO</strong>!'
+    }
 }
-
-
